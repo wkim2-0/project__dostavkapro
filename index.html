@@ -1,0 +1,418 @@
+<html>
+<head>
+	<title>ДОСТАВКАПРО | Работа курьером</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="canonical" href="https://dostavkapro.io">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" type="image/svg+xml" sizes="any" href="fav.svg">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@21.2.7/build/css/intlTelInput.css">
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+	<div class="overlay"></div>
+	<div class="side-menu">
+		<a href="#" class="side-menu__logo"><img src="img/logo.svg" /></a>
+		<span href="section#about">Преимущества</span>
+		<span href="section#steps">Как стать курьером?</span>
+		<span href="section#answers">Вопрос-ответ</span>
+		<span href="section#form">Стать курьером</span>
+		<div class="btn-box">
+			<div>
+				<a href="#"><img src="img/wa.svg" /></a>
+				<a href="#"><img src="img/tg.svg" /></a>
+			</div>
+			<a href="#">Связаться с нами</a>
+		</div>
+    </div>
+	<header>
+		<img src="img/logo.svg" />
+		<div class="menu"> 
+			<a href="#about">Преимущества</a>
+			<a href="#steps">Этапы</a>
+			<a href="#answers">FAQ</a>
+		</div>
+		<a href="#">
+			<div class="num">+7(999) 999-99-99</div>
+			<div class="online"><span></span>пишите, мы онлайн 24/7</div>
+		</a>
+		<div class="btn-box">
+			<a href="#"><img src="img/wa.svg" /></a>
+			<a href="#"><img src="img/tg.svg" /></a>
+			<a onclick="showForm();">Стать курьером</a>
+		</div>
+		
+		<svg fill="none" height="40" viewBox="0 0 40 40" width="40" class="btn-reset burger" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="20" cy="20" fill="url(#paint0_linear_405_595)" r="20"></circle>
+			<line id="line-1" stroke="white" x1="10" x2="30" y1="17" y2="17"></line>
+			<line id="line-2" stroke="white" x1="10" x2="30" y1="24" y2="24"></line>
+			<defs>
+			  <linearGradient id="paint0_linear_405_595" x1="5.62786e-07" x2="40" y1="23.1111" y2="23.1111">
+				<stop offset="1" stop-color="var(--color-main)"></stop>
+			  </linearGradient>
+			</defs>
+		</svg>
+	</header>
+	
+	<section id="banner">
+		<div>
+			<div><h1>Работа курьером | Заработок до 7000 рублей в день</h1></div>
+			<p>Доставляйте заказы из интернет-магазинов<br>и ресторанов и получайте ежедневные выплаты</p>
+		</div>
+		<img src="img/courier.png" />
+	</section>
+	
+	<section id="about">
+		
+		<div class="about_title desktop">
+			<div><h1>Присоединяйтесь к нашей команде курьеров</h1></div>
+			<div class="ml5"><h1>и оцените все преимущества этой профессии!</h1></div>
+		</div>
+		
+		<h1 class="mobile">
+			Станьте курьером с&nbsp;нами и наслаждайтесь уникальными преимуществами
+		</h1>
+		<div class="about-body">
+			<div class="about-container">
+				<div>
+					<img src="img/about/1.svg" />
+					<h2>Ежедневные выплаты</h2>
+					<p>Никаких задержек: своевременные ежедневные выплаты без дополнительных ожиданий</p>
+				</div>
+				<div>
+					<img src="img/about/2.svg" />
+					<h2>свободный график</h2>
+					<p>Работайте в удобное время и управляйте своим графиком</p>
+				</div>
+				<div>
+					<img src="img/about/3.svg" />
+					<h2>Доход до 7000 рублей  в день</h2>
+					<p>Зависит только от вашего желания заработать</p>
+				</div>
+				<div>
+					<img src="img/about/4.svg" />
+					<h2>Работа по вашему району</h2>
+					<p>Выполняйте заказы рядом с домом, сокращая время и затраты на поездки</p>
+				</div>
+				<div>
+					<img src="img/about/5.svg" />
+					<h2>Принимаем пеших/вело и авто курьеров</h2>
+					<p>Выборайте наиболее удобный способ доставки для себя</p>
+				</div>
+				<div>
+					<img src="img/about/6.svg" />
+					<h2>Легкие заказы</h2>
+					<p>Это позволяет снизить физическую нагрузку и повысить эффективность</p>
+				</div>
+				<div>
+					<img src="img/about/7.svg" />
+					<h2>Без опыта работы</h2>
+					<p>Получите обучение и поддержку, даже если у вас нет предыдущего опыта в этой сфере</p>
+				</div>
+				<div>
+					<img src="img/about/8.svg" />
+					<h2>Быстрое подключение к сервису</h2>
+					<p>Начинайте брать заказы уже на следующий день, без собеседования в офисе</p>
+				</div>
+				<div>
+					<img src="img/about/9.svg" />
+					<h2>Акция<br>«Пригласи Друга»</h2>
+					<p>Получи до 12 000₽ за приглашение друга</p>
+				</div>
+			</div>
+		</div>
+		<div class="bg">
+			<img src="img/about-wave.svg" />
+		</div>
+	</section>
+	
+	<section id="steps">
+		<div class="steps_title">
+			<h1>Как стать<br/>курьером?</h1>
+		</div>
+		<div>
+			<div class="step">
+				<span>1 ШАГ</span>
+				<h2>Отправьте заявку на регистрацию</h2>
+				<p>Кликните на кнопку «Стать Курьером» и заполните необходимые поля</p>
+			</div>
+			<div class="step">
+				<span>2 ШАГ</span>
+				<h2>Пройдите обучение в онлайн режиме</h2>
+				<p>Обучение займет 5 минут.<br>Вы научитесь работать с программой</p>
+			</div>
+			<div class="step">
+				<span>3 ШАГ</span>
+				<h2>Пройдите онлайн-активацию</h2>
+				<p>Мы проверим, как хорошо вы усвоили информацию из обучения</p>
+			</div>
+			<div class="step">
+				<span>4 ШАГ</span>
+				<h2>Получите доступ в приложение</h2>
+				<p>Готово! Выходите на линию, получайте заказы на доставку и зарабатывайте!</p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="answers">
+		<div class="answers_title">
+			<h1>Вопрос-ответ</h1>
+		</div>
+		<div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						У меня есть основная работа / учеба, можно на подработку?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Да! Можно работать в свободном графике, нет никаких обязательств. Выполняйте заказы в любое время: утром, днем, вечером, только по выходным или в свободное время. Час в день или даже 15 минут, 1 день в неделю или 7 — абсолютная свобода. Только вы решаете!
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Каким способом можно доставлять заказы?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Доставлять заказы можно любым способом: пешком либо на общественном транспорте, на велосипеде, самокате, мотоцикле или личном автомобиле. Во многих городах есть специальные условия на покупку или аренду велосипеда у наших партнеров, также для наших курьеров есть льготный шеринг самокатов от Яндекс GO с оплатой от 1₽/мин. Чем выше скорость доставки, тем выше доход!
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Можно получать выплаты ежедневно?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Да! Выплаты поступают каждый день на вашу банковскую карту.
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Нужны ли вложения для начала работы?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Нет! Можно начать сразу после оформления без каких-либо вложений и зарабатывать. Сумка для доставок выдается бесплатно, баланс в приложении также пополнять не нужно, чтобы начать выполнять заказы.
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Сколько заказов можно выполнить?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						В среднем по статистике можно выполнять до 2-3 заказов в час в обычный день. Также в течение дня может возникать повышенный спрос, в это время заказов поступает больше и оплачиваются они дороже. Еще бывают мультизаказы: сначала получаете посылки с нескольких адресов, а потом доставляете, точек может быть вплоть до 6, такие заказы самые дорогие.
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Что нужно доставлять?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Зависит от сервиса, в который оформитесь. Пеших и курьеров на личном велосипеде / самокате оформляем в сервис Яндекс.Еда / Маркет Деливери: доставка в основном из ресторанов и магазинов. Яндекс.Лавка / Маркет15 (*доступно не во всех городах) — предоставляем велосипед: доставка продуктов, товаров для дома, небольших посылок с Яндекс.Маркета. Курьеров на личном автомобиле подключаем в сервис Яндекс.Доставка: доставлять нужно различные посылки от клиентов (например, документы, ключи и тд.), и корп. заказы с интернет-магазинов, которые сотрудничают с доставкой.
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Нужно ли одевать униформу?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Нет, специальная униформа не требуется, работайте в удобной одежде. Пешим и курьерам на велосипеде/самокате выдается только сумка для доставок — бесплатно.
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Какой смартфон подходит для работы?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Приложение для выполнения заказов доступно на Android и IOS.
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Каким способом происходит оформление?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Практически все курьеры оформляются самозанятыми. Это очень просто и быстро, нужно всего лишь пройти регистрацию в приложении "Мой Налог", это занимает 2 минуты, доход будет считаться официальным, а выплаты поступать ежедневно. Также быстро можно будет сняться со статуса самозанятого при прекращении сотрудничества. Также есть еще вариант оформления для курьеров на личном автомобиле — подключение через парк-партнера, это неофициальное оформление, условия выплат могут отличаться в разных парках, нужно уточнять индивидуально, но чаще всего также ежедневные выплаты, как и у самозанятых, также у парковых курьеров взимается комиссия с заказов.
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Можно ли выбрать район для работы?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Да, выйти на линию можно в любом доступном районе, даже рядом с домом, заказы поступают ближайшие к вашему текущему местоположению.
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Мне меньше 18, принимаете?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Да! Во многих городах принимаем курьеров с 16 лет, но не младше. Заполняйте анкету по кнопке "Стать курьером", указывайте свой город и возраст. Также потребуется письменное разрешение от родителей/опекунов для оформления несовершеннолетнего. Форма в памятке после обучения, либо вам отправит специалист. После оформления можно будет сразу работать.
+					</p>
+				</div>
+			</div>
+			<div class="answer-box">
+				<div>
+					<h2>
+						Могу ли стать курьером, если я не гражданин РФ?
+					</h2>
+					<span></span>
+				</div>
+				<div>
+					<p>
+						Да! Во многих городах принимаем граждан стран СНГ, а также с иным гражданством. Заполняйте анкету по кнопке "Стать курьером", указывайте свой город и гражданство. Нужно иметь РВП/ВНЖ либо патент. Для автокурьеров требований по гражданству нет.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="form">
+		<img src="https://thumb.tildacdn.com/tild3435-3935-4339-a438-303733613030/-/cover/495x363/center/center/-/format/webp/Mask_group.png" />
+		<span class="form_title">
+			<h1>Стать курьером!</h1>
+		</span>
+		
+		<p>Оставьте заявку и вы сможете ознакомиться<br>с обучением по работе курьером.</p>
+		<div>
+			<button onclick="showForm();">Стать курьером</button>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="foot-body">
+			<img src="img/logo.svg" />
+			<div class="menu"> 
+				<a href="#about">Преимущества</a>
+				<a href="#steps">Этапы</a>
+				<a href="#answers">Рассчитать доход</a>
+				<a href="#answers">FAQ</a>
+			</div>
+			<a href="#">
+				<div class="num">+7 (999) 999 99-99</div>
+				<div class="online"><span></span>пишите, мы онлайн 24/7</div>
+			</a>
+			<div class="btn-box">
+				<a href="#"><img src="img/wa.svg" /></a>
+				<a href="#"><img src="img/tg.svg" /></a>
+				<a onclick="showForm();">Стать курьером</a>
+			</div>
+		</div>
+		<div class="policy-block">
+			<a class="policy" href="#" target="_blank">
+				Политика конфиденциальности
+			</a>
+		</div>
+	</footer>
+	
+	<div class="btn-btm">
+		<a onclick="showForm();">
+			Стать курьером
+		</a>
+	</div>
+	<span id="mouseMove"></span>
+	<div class="modal-form toggled">
+		<div class="form-body">
+			<div class="close">&#10006;</div>
+			<img src="/img/banner-back-line.svg">
+			<h3 id="modal__title">
+				Стать курьером!
+			</h3>
+			<p id="modal__p">
+				Оставьте заявку и вы сможете ознакомиться с обучением по работе курьером.
+			</p>
+			
+			<div class="input-group" id="main">
+				<input id="phone">
+				<input style="display: none" id="code" type="text" placeholder="Введите код"><br>
+				<button id="buttonCode" type="button" onclick="sendSms()" >Отправить код</button>
+				<button style="display: none" id="nexButton" onclick="ConfirmCode()" type="button">Продолжить</button>
+				<p id="messageDebug"></p>
+			</div>
+			<span>Нажимая на кнопку, вы соглашаетесь с 
+				<a class="policy" href="#" target="_blank">
+					Политика конфиденциальности
+				</a>
+			</span>
+		</div>
+	</div>
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@21.2.7/build/js/intlTelInput.min.js"></script>
+	
+	<!-- Маска для телефона -->
+	<script>
+		const input = document.querySelector("#phone");
+		window.intlTelInput(input, {
+			onlyCountries: ['ru', 'kz', 'by', 'kg', 'uz'],
+			showSelectedDialCode: true,
+			initialCountry: 'ru',
+			geoIpLookup: callback => {
+				fetch("https://ipapi.co/json")
+				.then(res => res.json())
+				.then(data => callback(data.country_code))
+				.catch(() => callback("us"));
+			},
+			countrySearch: false,
+			customPlaceholder: function(selectedCountryPlaceholder, selectedCountryData) {
+				return selectedCountryPlaceholder.slice(2);
+			},
+			strictMode: true,
+			utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@21.2.7/build/js/utils.js",
+		});
+	</script>
+</body>
+
+</html>
+
+
